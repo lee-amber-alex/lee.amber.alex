@@ -5,7 +5,7 @@ Updated portfolio containing links to resume, contact information, GitHub and as
 
 ## Installation  
 
-Visit my website [here.](https://lee-amber-alex.github.io/amber.lee/)  
+Visit my website [here.](https://lee-amber-alex.github.io/lee.amber.alex/)  
 Access the project repository [here.](https://github.com/lee-amber-alex/amber.lee)  
 
 
