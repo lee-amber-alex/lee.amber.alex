@@ -10,7 +10,7 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${bg2})` }}>
       <Nav />
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={PortHome} />
           <Route exact path="/projects" exact component={ProjectContainer} />
