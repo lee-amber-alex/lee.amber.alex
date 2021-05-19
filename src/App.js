@@ -4,7 +4,7 @@ import ProjectContainer from "./pages/ProjectContainer"
 import bg2 from "./img/bg2.jpg";
 import "./App.css";
 import Nav from "./nav/Nav";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -12,14 +12,14 @@ function App() {
     <div style={{ backgroundImage: `url(${bg2})` }} >
       <Nav />
       {/* <PortHome/> */}
-      <BrowserRouter>
+      <HashRouter>
         <div className="container">
           <Switch>
             <Route exact path="/" component={PortHome} />
-            <Route path="/projects" exact component={ProjectContainer} />
+            <Route exact path="/projects" exact component={ProjectContainer} />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
