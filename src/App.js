@@ -9,11 +9,11 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div style={{ backgroundImage: `url(${bg2})` }}>
-      <Nav />
       <HashRouter basename={process.env.PUBLIC_URL}>
+        <Nav />
         <Switch>
-          <Route exact path="/" component={PortHome} />
-          <Route exact path="/projects" exact component={ProjectContainer} />
+          <Route exact path={["/", "/#/"]} exact component={PortHome} />
+          <Route exact path={["/projects", "/#/projects"]} exact component={ProjectContainer} />
         </Switch>
       </HashRouter>
     </div>
