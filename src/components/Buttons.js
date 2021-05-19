@@ -1,6 +1,5 @@
 import React from "react";
 import resume from "../img/ALResume2021.pdf";
-import ProjectContainer from "../pages/ProjectContainer";
 import "../style/buttons.css";
 
 
