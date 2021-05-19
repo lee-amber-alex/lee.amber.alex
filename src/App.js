@@ -10,7 +10,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div style={{ backgroundImage: `url(${bg2})` }}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Nav />
         <Switch>
           <Route exact path="/" component={PortHome} />
