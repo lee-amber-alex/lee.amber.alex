@@ -11,6 +11,9 @@
   border-style: outset;
     
 }
+a:hover {
+    color: #62acb5 !important;
+  }
 
 .navbar-2{
     align-items: center;
