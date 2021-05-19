@@ -1,0 +1,52 @@
+/* .container-fluid {
+  background-color: #cfced3;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  width: auto;
+  align-items: center;
+  display: flex;
+} */
+
+div {
+  padding: 0.5em;
+  flex: 1;
+}
+
+.aboutMe {
+  background: #62acb5 !important;
+  color: white;
+  border-radius: 8px;
+  border-color: grey;
+  border-style: outset;
+  /* margin: 5px; */
+  /* width: auto; */
+  /* height: auto; */
+  /* display: flex;  */
+  /* flex-direction: column; */
+  /* padding: 5%; */
+}
+
+.about-me{
+  text-transform:capitalize;
+  color:  #3F3E44;
+}
+
+.projects {
+  background: #3f3e44;
+  height: auto;
+  /* align-items: center; */
+  /* width: auto;  */
+  /* height: 100% !important; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.row-container {
+  padding: 5px;
+  background: white !important;
+  margin: 0;
+  /* align-items: center; */
+  /* height: 100%; */
+  /* width: auto; */
+}

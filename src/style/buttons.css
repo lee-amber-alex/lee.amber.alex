@@ -1,0 +1,15 @@
+
+
+.btn {
+    margin: 20px;
+    
+}
+
+.btn-group-vertical {
+    justify-content: center;
+    width: 100% !important;
+    align-items: center !important;
+    background: white;
+    
+}
+

@@ -1,0 +1,19 @@
+/* .img-cert{
+    height: 200px;
+    width: 200px;
+}
+
+.img-cert-UW{
+    height: 200px;
+    width: 250px;
+} */
+
+.img-cert{
+    width: 100%;
+    height: auto;
+}
+
+.img-cert-UW{
+    width: 100%;
+    height: auto;
+}

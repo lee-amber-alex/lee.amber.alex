@@ -1,0 +1,26 @@
+.navbar {
+    font-size: 50px;
+    color: white ;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    background-color: #3F3E44;
+    align-items: center;
+    border-radius: 8px;
+  border-color: white;
+  border-style: outset;
+    
+}
+
+.navbar-2{
+    align-items: center;
+}
+.myNavH {
+    animation: mynavh 5s;
+
+}
+
+@keyframes mynavh {
+from {font-size: 10px;}
+to {font-size: 50px;}
+}

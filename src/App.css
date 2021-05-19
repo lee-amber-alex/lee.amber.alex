@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  
+}
+
+/* .app-bg{
+  background-image: url("./img/bg2.jpg");
+  background-repeat: repeat;
+  height: 100vh;
+} */
+
+a:link {
+  text-decoration: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
