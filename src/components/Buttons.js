@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../img/ALResume2021.pdf";
+import ProjectContainer from "../pages/ProjectContainer";
 import "../style/buttons.css";
 
 
@@ -21,7 +22,8 @@ export default function Buttons() {
         >
           GitHub
         </a>
-        <a href="/#/projects" className="btn btn-secondary ">
+        
+        <a  href="/#/projects" className="btn btn-secondary ">
           My Projects
         </a>
         <a href={resume} className="btn btn-secondary ">

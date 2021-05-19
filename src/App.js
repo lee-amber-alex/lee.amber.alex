@@ -9,7 +9,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div style={{ backgroundImage: `url(${bg2})` }}>
-      <HashRouter basename="/">
+      <HashRouter basename="/lee.amber.alex">
         <Nav />
         <Switch>
           <Route exact path={["/", "/#/"]} exact component={PortHome} />
