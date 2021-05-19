@@ -22,7 +22,7 @@ export default function Buttons() {
           GitHub
         </a>
         
-        <a  href="/projects" className="btn btn-secondary ">
+        <a  href="/#/projects" className="btn btn-secondary ">
           My Projects
         </a>
         <a href={resume} className="btn btn-secondary ">
