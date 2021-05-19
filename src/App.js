@@ -13,7 +13,7 @@ function App() {
       <HashRouter>
         <Switch>
           <Route exact path="/" component={PortHome} />
-          <Route exact path="/projects" exact component={ProjectContainer} />
+          <Route path="/projects" exact component={ProjectContainer} />
         </Switch>
       </HashRouter>
     </div>
