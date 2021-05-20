@@ -5,20 +5,30 @@ img{
     /* width: 500px; */
 }
 
-.car-1{
-    /* color: black ; */
-}
 
-.projects{
-    height: 100%;
+.buttons-home{
+    height: auto;
     background: #62ACB5;
     border-radius: 8px;
     border-color: grey;
     border-style: outset;
 }
 
+.projects{
+    height: auto;
+    background: #62ACB5;
+    border-radius: 8px;
+    border-color: grey;
+    border-style: outset;
+}
+
+.carousel-border{
+    border-radius: 8px;
+    border-color: black !important;
+}
+
 .carousel-caption{
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: black;
     padding: 0 !important;
     text-align: left !important;
