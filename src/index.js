@@ -7,11 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={`${process.env.PUBLIC_URL}`}>
+    <Router basename="/lee.amber.alex">
       <App />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
 
-// ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById("root"));
+

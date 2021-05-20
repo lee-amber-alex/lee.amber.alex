@@ -10,8 +10,8 @@ import "../style/projects.css";
 
 export default function Projects() {
   return (
-    <div>
-      <Carousel>
+    <div >
+      <Carousel >
        
 
         <Carousel.Item>

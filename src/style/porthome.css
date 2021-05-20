@@ -16,6 +16,9 @@ div {
 .aboutMe {
   background: #62acb5 !important;
   color: white;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid grey;
   border-radius: 8px;
   border-color: grey;
   border-style: outset;
@@ -29,12 +32,13 @@ div {
 
 .about-me{
   text-transform:capitalize;
+  font-size: 20px;
   color:  #3F3E44;
 }
 
 .projects {
   background: #3f3e44;
-  height: auto;
+  height: 100%;
   /* align-items: center; */
   /* width: auto;  */
   /* height: 100% !important; */
@@ -50,3 +54,4 @@ div {
   /* height: 100%; */
   /* width: auto; */
 }
+
