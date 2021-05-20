@@ -30,15 +30,30 @@ div {
   /* padding: 5%; */
 }
 
-.about-me{
-  text-transform:capitalize;
+.project-header {
+  text-align: center;
+  border-bottom: white;
+  text-shadow: 1px 1px 1px #3F3E44;
+  font-family: "Homemade Apple", cursive;
+  padding-top: 10px;
+}
+.me-bio {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.about-me {
+  text-transform: capitalize;
   font-size: 20px;
-  color:  #3F3E44;
+  color: #3f3e44;
 }
 
 .projects {
   background: #3f3e44;
   height: 100%;
+  text-align: center;
+  color: white;
   /* align-items: center; */
   /* width: auto;  */
   /* height: 100% !important; */
@@ -54,4 +69,3 @@ div {
   /* height: 100%; */
   /* width: auto; */
 }
-
