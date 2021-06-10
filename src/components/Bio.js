@@ -16,7 +16,7 @@ export default function Bio() {
             now include: AWS Certified Cloud Practitioner, CSS, HTML, JavaScript, jQuery, TypeScript, MySQL, MongoDB, Node.js, Express.js, and React. <br/><br/>
 
             With a newly found enthusiasm for coding, Amber now has the ability to apply aspects of UX and agile
-            development to build single-page MERN applications that help communities connect and businesses thrive. She
+            development to build web applications that help communities connect and businesses thrive. She
             is passionate about using technology to bridge differences amongst people, make connection easier and
             aspires to work on projects that include all and exclude none.
         </div>
